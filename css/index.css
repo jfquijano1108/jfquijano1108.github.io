@@ -1,0 +1,94 @@
+body{
+    background:#CED3DC;
+    margin: 0;
+    padding: 0;
+    background: 78c0e0;
+}
+.name{
+    width: 100%;
+    height: 220px;
+    background: #150578;
+    transform: skewY(-5deg);
+}
+
+.name .content{
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    left:25%;
+}
+.name .content .p-1{
+    color: #8FA998;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: bolder;
+    font-size: 200%;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+}
+.name .content .p-2{
+    color: #8FA998;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: bolder;
+    font-size: 100%;
+    transform: skewY(5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name .img {
+    position: absolute;
+    top: 21%;
+    right: 15%;
+    width: 150px;
+    height: 180px;
+    border-radius: 5%;
+    transform: skewY(5deg);
+    overflow: hidden;
+}
+
+.name .img img{
+    width: 140px;
+    height: 160px;
+}
+.info{
+    width: 95%;
+    height: auto;
+    background: #A31621;
+    margin: 4.5% auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.info .tituloseccion {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 1px white solid;
+}
+
+.info .tituloinfo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 10px;
+}
+
+.informacion{
+    color: white;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+footer{
+	background: #150578;
+	color: #fff;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+}
